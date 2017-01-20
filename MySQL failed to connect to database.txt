@@ -1,0 +1,5 @@
+If mysql failed to connect to database shows,
+
+msyql -u root -p
+mysql> GRANT ALL ON mrbs.* to mrbs@localhost IDENTIFIED BY "mrbs-password";
+mysql> FLUSH PRIVILEGES;

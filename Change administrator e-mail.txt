@@ -1,0 +1,3 @@
+1) Open file \mrbs\web\edit_entry_handler.php
+2) Search for 'if ($result['valid_booking'])
+3) Change the $mail settings accordingly.

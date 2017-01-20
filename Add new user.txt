@@ -1,0 +1,14 @@
+Instructions to add a new user.
+
+# PART 1:
+Open "config.inc.php" and add the following line to the end:
+$auth["user"]["XYZ"] = "XYZ";
+where XYZ is the new user's user-id
+
+# PART 2:
+Open phpmyadmin and go to mrbs database on the left pane. Under mrbs, click mrbs_users.
+A list of users appears on the right pane. Check the last id value. Call it X, say. Let X+1 = K
+Go to SQL tab on the right.
+Paste the following line and click 'Go':
+
+INSERT INTO `mrbs_users` (`id`,`level`,`name`,`password_hash`,`email`) VALUES (K,1,'XYZ','XYZ-password','XYZ@gmail.com')
