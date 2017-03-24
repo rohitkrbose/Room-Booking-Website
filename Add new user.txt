@@ -2,7 +2,7 @@ Instructions to add a new user.
 
 # PART 1:
 Open "config.inc.php" and add the following line to the end:
-$auth["user"]["XYZ"] = "XYZ";
+$auth["user"]["XYZ"] = "<password>";
 where XYZ is the new user's user-id
 
 # PART 2:
